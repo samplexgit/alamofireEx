@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A773C2B1E26565500B7091F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A773C2A1E26565500B7091F /* AppDelegate.swift */; };
+		9A773C2D1E26565500B7091F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A773C2C1E26565500B7091F /* ViewController.swift */; };
+		9A773C301E26565500B7091F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A773C2E1E26565500B7091F /* Main.storyboard */; };
+		9A773C321E26565500B7091F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A773C311E26565500B7091F /* Assets.xcassets */; };
+		9A773C351E26565500B7091F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A773C331E26565500B7091F /* LaunchScreen.storyboard */; };
+		9A773C401E26565600B7091F /* AFNetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A773C3F1E26565600B7091F /* AFNetworkingTests.swift */; };
+		9A773C4B1E26565600B7091F /* AFNetworkingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A773C4A1E26565600B7091F /* AFNetworkingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A773C3C1E26565600B7091F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A773C1F1E26565500B7091F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A773C261E26565500B7091F;
+			remoteInfo = AFNetworking;
+		};
+		9A773C471E26565600B7091F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A773C1F1E26565500B7091F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A773C261E26565500B7091F;
+			remoteInfo = AFNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A773C271E26565500B7091F /* AFNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A773C2A1E26565500B7091F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A773C2C1E26565500B7091F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A773C2F1E26565500B7091F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A773C311E26565500B7091F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A773C341E26565500B7091F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A773C361E26565500B7091F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A773C3B1E26565600B7091F /* AFNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A773C3F1E26565600B7091F /* AFNetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFNetworkingTests.swift; sourceTree = "<group>"; };
+		9A773C411E26565600B7091F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A773C461E26565600B7091F /* AFNetworkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFNetworkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A773C4A1E26565600B7091F /* AFNetworkingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFNetworkingUITests.swift; sourceTree = "<group>"; };
+		9A773C4C1E26565600B7091F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A773C241E26565500B7091F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A773C381E26565600B7091F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A773C431E26565600B7091F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A773C1E1E26565500B7091F = {
+			isa = PBXGroup;
+			children = (
+				9A773C291E26565500B7091F /* AFNetworking */,
+				9A773C3E1E26565600B7091F /* AFNetworkingTests */,
+				9A773C491E26565600B7091F /* AFNetworkingUITests */,
+				9A773C281E26565500B7091F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A773C281E26565500B7091F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A773C271E26565500B7091F /* AFNetworking.app */,
+				9A773C3B1E26565600B7091F /* AFNetworkingTests.xctest */,
+				9A773C461E26565600B7091F /* AFNetworkingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A773C291E26565500B7091F /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				9A773C2A1E26565500B7091F /* AppDelegate.swift */,
+				9A773C2C1E26565500B7091F /* ViewController.swift */,
+				9A773C2E1E26565500B7091F /* Main.storyboard */,
+				9A773C311E26565500B7091F /* Assets.xcassets */,
+				9A773C331E26565500B7091F /* LaunchScreen.storyboard */,
+				9A773C361E26565500B7091F /* Info.plist */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		9A773C3E1E26565600B7091F /* AFNetworkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A773C3F1E26565600B7091F /* AFNetworkingTests.swift */,
+				9A773C411E26565600B7091F /* Info.plist */,
+			);
+			path = AFNetworkingTests;
+			sourceTree = "<group>";
+		};
+		9A773C491E26565600B7091F /* AFNetworkingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A773C4A1E26565600B7091F /* AFNetworkingUITests.swift */,
+				9A773C4C1E26565600B7091F /* Info.plist */,
+			);
+			path = AFNetworkingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A773C261E26565500B7091F /* AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A773C4F1E26565600B7091F /* Build configuration list for PBXNativeTarget "AFNetworking" */;
+			buildPhases = (
+				9A773C231E26565500B7091F /* Sources */,
+				9A773C241E26565500B7091F /* Frameworks */,
+				9A773C251E26565500B7091F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNetworking;
+			productName = AFNetworking;
+			productReference = 9A773C271E26565500B7091F /* AFNetworking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A773C3A1E26565600B7091F /* AFNetworkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A773C521E26565600B7091F /* Build configuration list for PBXNativeTarget "AFNetworkingTests" */;
+			buildPhases = (
+				9A773C371E26565600B7091F /* Sources */,
+				9A773C381E26565600B7091F /* Frameworks */,
+				9A773C391E26565600B7091F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A773C3D1E26565600B7091F /* PBXTargetDependency */,
+			);
+			name = AFNetworkingTests;
+			productName = AFNetworkingTests;
+			productReference = 9A773C3B1E26565600B7091F /* AFNetworkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A773C451E26565600B7091F /* AFNetworkingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A773C551E26565600B7091F /* Build configuration list for PBXNativeTarget "AFNetworkingUITests" */;
+			buildPhases = (
+				9A773C421E26565600B7091F /* Sources */,
+				9A773C431E26565600B7091F /* Frameworks */,
+				9A773C441E26565600B7091F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A773C481E26565600B7091F /* PBXTargetDependency */,
+			);
+			name = AFNetworkingUITests;
+			productName = AFNetworkingUITests;
+			productReference = 9A773C461E26565600B7091F /* AFNetworkingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A773C1F1E26565500B7091F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Shilp_mphoton pho";
+				TargetAttributes = {
+					9A773C261E26565500B7091F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					9A773C3A1E26565600B7091F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9A773C261E26565500B7091F;
+					};
+					9A773C451E26565600B7091F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9A773C261E26565500B7091F;
+					};
+				};
+			};
+			buildConfigurationList = 9A773C221E26565500B7091F /* Build configuration list for PBXProject "AFNetworking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A773C1E1E26565500B7091F;
+			productRefGroup = 9A773C281E26565500B7091F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A773C261E26565500B7091F /* AFNetworking */,
+				9A773C3A1E26565600B7091F /* AFNetworkingTests */,
+				9A773C451E26565600B7091F /* AFNetworkingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A773C251E26565500B7091F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A773C351E26565500B7091F /* LaunchScreen.storyboard in Resources */,
+				9A773C321E26565500B7091F /* Assets.xcassets in Resources */,
+				9A773C301E26565500B7091F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A773C391E26565600B7091F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A773C441E26565600B7091F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A773C231E26565500B7091F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A773C2D1E26565500B7091F /* ViewController.swift in Sources */,
+				9A773C2B1E26565500B7091F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A773C371E26565600B7091F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A773C401E26565600B7091F /* AFNetworkingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A773C421E26565600B7091F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A773C4B1E26565600B7091F /* AFNetworkingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A773C3D1E26565600B7091F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A773C261E26565500B7091F /* AFNetworking */;
+			targetProxy = 9A773C3C1E26565600B7091F /* PBXContainerItemProxy */;
+		};
+		9A773C481E26565600B7091F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A773C261E26565500B7091F /* AFNetworking */;
+			targetProxy = 9A773C471E26565600B7091F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A773C2E1E26565500B7091F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A773C2F1E26565500B7091F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A773C331E26565500B7091F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A773C341E26565500B7091F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A773C4D1E26565600B7091F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A773C4E1E26565600B7091F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A773C501E26565600B7091F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AFNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phophophopho.AFNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A773C511E26565600B7091F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AFNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phophophopho.AFNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A773C531E26565600B7091F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AFNetworkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phophophopho.AFNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFNetworking.app/AFNetworking";
+			};
+			name = Debug;
+		};
+		9A773C541E26565600B7091F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AFNetworkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phophophopho.AFNetworkingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AFNetworking.app/AFNetworking";
+			};
+			name = Release;
+		};
+		9A773C561E26565600B7091F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AFNetworkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phophophopho.AFNetworkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AFNetworking;
+			};
+			name = Debug;
+		};
+		9A773C571E26565600B7091F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AFNetworkingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phophophopho.AFNetworkingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AFNetworking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A773C221E26565500B7091F /* Build configuration list for PBXProject "AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A773C4D1E26565600B7091F /* Debug */,
+				9A773C4E1E26565600B7091F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A773C4F1E26565600B7091F /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A773C501E26565600B7091F /* Debug */,
+				9A773C511E26565600B7091F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A773C521E26565600B7091F /* Build configuration list for PBXNativeTarget "AFNetworkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A773C531E26565600B7091F /* Debug */,
+				9A773C541E26565600B7091F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A773C551E26565600B7091F /* Build configuration list for PBXNativeTarget "AFNetworkingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A773C561E26565600B7091F /* Debug */,
+				9A773C571E26565600B7091F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A773C1F1E26565500B7091F /* Project object */;
+}
