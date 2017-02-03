@@ -133,13 +133,13 @@ class ViewController: UIViewController {
     
     func tableView(_ tableView: UITableView, cellForRowAtIndexPath indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "jsonCell", for: indexPath) as! TableViewCell
-        if (self.arrRes?.count)! > 0
+        if (self.modelarry.count) > 0
         {
           //self.Dictionary = self.arrRes![(indexPath as NSIndexPath).row]
           //cell.Label1.text = Dictionary["name"] as? String
           //cell.Label2.text = Dictionary["email"] as? String
           
-          let person = modelarry[(indexPath as NSIndexPath).row]
+          let person = self.modelarry[(indexPath as NSIndexPath).row]
           cell.Label1.text = person.name
           cell.Label2.text = person.email
         }
