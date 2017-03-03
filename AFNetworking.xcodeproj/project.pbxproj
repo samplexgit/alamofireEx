@@ -17,6 +17,7 @@
 		9A773C401E26565600B7091F /* AFNetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A773C3F1E26565600B7091F /* AFNetworkingTests.swift */; };
 		9A773C4B1E26565600B7091F /* AFNetworkingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A773C4A1E26565600B7091F /* AFNetworkingUITests.swift */; };
 		9A7ADF571E27A4B800108517 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7ADF561E27A4B800108517 /* TableViewCell.swift */; };
+		9AC953601E6967E500CFE8C4 /* TMPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC9535F1E6967E500CFE8C4 /* TMPViewController.swift */; };
 		9AFB448C1E4459590097EF6A /* ModelClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFB448B1E4459590097EF6A /* ModelClass.swift */; };
 		A1C278952498AFA566BBFD43 /* Pods_AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 977ED02F3B80404B57CDB2AE /* Pods_AFNetworking.framework */; };
 		BD8D8974CD26459B3A832FD2 /* Pods_AFNetworkingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D3F38F58DBA8B81F7995BC5 /* Pods_AFNetworkingTests.framework */; };
@@ -65,6 +66,7 @@
 		9A773C4A1E26565600B7091F /* AFNetworkingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFNetworkingUITests.swift; sourceTree = "<group>"; };
 		9A773C4C1E26565600B7091F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A7ADF561E27A4B800108517 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		9AC9535F1E6967E500CFE8C4 /* TMPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMPViewController.swift; sourceTree = "<group>"; };
 		9AFB448B1E4459590097EF6A /* ModelClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelClass.swift; sourceTree = "<group>"; };
 		B7C120E2E3EE7096D6C9AA5B /* Pods_AFNetworkingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AFNetworkingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -145,6 +147,7 @@
 				9A2602121E2E132D00EBC189 /* Constant.swift */,
 				9A2602141E2E2DD900EBC189 /* DetailViewController.swift */,
 				9AFB448B1E4459590097EF6A /* ModelClass.swift */,
+				9AC9535F1E6967E500CFE8C4 /* TMPViewController.swift */,
 			);
 			path = AFNetworking;
 			sourceTree = "<group>";
@@ -458,6 +461,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AC953601E6967E500CFE8C4 /* TMPViewController.swift in Sources */,
 				9A7ADF571E27A4B800108517 /* TableViewCell.swift in Sources */,
 				9A2602131E2E132D00EBC189 /* Constant.swift in Sources */,
 				9A2602151E2E2DD900EBC189 /* DetailViewController.swift in Sources */,

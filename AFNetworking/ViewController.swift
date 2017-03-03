@@ -35,7 +35,7 @@ class ViewController: UIViewController {
                 if let resData = swiftyJsonVar["contacts"].arrayObject {
                     
                     self.arrRes = resData as? [[String:AnyObject]]
-                                       
+                                        
                     
                 }
                 self.myVar = self.arrRes!.count
