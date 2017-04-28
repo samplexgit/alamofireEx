@@ -12,7 +12,7 @@ import SwiftyJSON
 import Foundation
 
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,returnDelegate {
     
     var arrRes:[[String:AnyObject]]? = nil
     var arrPhone:[[String:AnyObject]]? = nil
@@ -22,11 +22,20 @@ class ViewController: UIViewController {
     var modelarry = [ModelClass]()
     @IBOutlet weak var tblView: UITableView!
     
+    //urlSeesion
+    var urlSessionManager = URLSessionManager.SharedInstance
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        //simple request
+        //urlSession
+        urlSessionManager.delegatePro = self
+        let result = urlSessionManager.RequestManger(urlString: Constant.GlobalConstants.kBaseUrl)
+        print(result)
+        
+        
+        //Alamofire simple request
         Alamofire.request(Constant.GlobalConstants.kBaseUrl, method: .post).responseJSON { (responseData) -> Void in
             
             if((responseData.result.value) != nil) {
@@ -124,7 +133,9 @@ class ViewController: UIViewController {
         }
     }
     
-    
+    func returnData(data: NSDictionary) {
+        print(data)
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
